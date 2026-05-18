@@ -48,17 +48,13 @@ Tools installed:
 
 ## 5. Issues I Ran Into and How I Solved Them
 
-Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser based (no backend, no external AI API).
-The lesson: good execution is not about adding complexity; it is about matching the goal.
+Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser based (no backend, no external AI API). I learned that good execution is not about adding complexity; it is about matching the goal.
 
-Designing the scoring framework: Trustworthiness in marketing is subjective, so I used transparent heuristic signals rather than claiming objective accuracy.
-The lesson: it is important to be honest about the limits of AI and scoring systems.
+Designing the scoring framework: Trustworthiness in marketing is subjective, so I used transparent heuristic signals rather than claiming objective accuracy. I learned that it is important to be honest about the limits of AI and scoring systems.
 
-Avoiding fake citations: AI tools can generate confident but unsupported statements, so I avoided fabricated sources and labeled the system as experimental.
-The lesson: verification matters more than confident wording.
+Avoiding fake citations: AI tools can generate confident but unsupported statements, so I avoided fabricated sources and labeled the system as experimental. I learned that verification matters more than confident wording.
 
-UI design balance: I wanted the app to feel polished but not overdesigned, so I used shadcn/ui cards, badges, tabs, alerts, and progress components to create a clean interface.
-The lesson: clear interface design helps communicate the idea faster.
+UI design balance: I wanted the app to feel polished but not overdesigned, so I used shadcn/ui cards, badges, tabs, alerts, and progress components to create a clean interface. I learned that clear interface design helps communicate the idea faster.
 
 ---
 
