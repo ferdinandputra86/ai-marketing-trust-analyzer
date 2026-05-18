@@ -2,11 +2,7 @@
 
 ## 1. Project Overview
 
-This project started as a setup task for a **Junior Growth Marketing Specialist** application: install Cursor IDE, the Claude Code extension, the Codex extension, create a public GitHub repository, and document the process in a README.
-
-After completing those steps, I built a small browser-based prototype called **AI Marketing Trust Analyzer** — an interactive tool that evaluates marketing copy using a transparent, rule-based framework.
-
-This project is **not** a claim that AI is bad. AI tools are useful for speed and ideation. The goal is to explore how **human judgment** improves AI-assisted marketing work: specificity, credibility, clarity, and honest framing still matter.
+**AI Marketing Trust Analyzer** is a lightweight browser prototype that evaluates marketing copy using a transparent trust framework based on clear rules, emphasizing specificity, verifiability, clarity, and honest framing.
 
 ---
 
@@ -43,7 +39,7 @@ Tools installed: Cursor IDE (AI-assisted development workspace) — Installed. C
 
 ## 5. Issues I Ran Into and How I Solved Them
 
-Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser-based (no backend, no external AI API).
+Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser based (no backend, no external AI API).
 The lesson: good execution is not about adding complexity; it is about matching the goal.
 
 Designing the scoring framework: Trustworthiness in marketing is subjective, so I used transparent heuristic signals rather than claiming objective accuracy.
@@ -109,8 +105,8 @@ npm run preview
 
 - AI tools accelerate drafting and implementation
 - Human judgment is still necessary for quality and trust
-- Specific copy is usually more trustworthy than hype-heavy copy
-- Claims need verification confidence is not the same as proof
+- Specific copy is usually more trustworthy than hype heavy copy
+- Claims need verification. Confidence is not the same as proof
 - A simple prototype can communicate an idea clearly to reviewers
 
 ---
@@ -119,9 +115,9 @@ npm run preview
 
 - Add real source checking for statistics and citations
 - Add more advanced NLP (still transparent and explainable)
-- Add side-by-side AI vs human rewrite comparison
+- Add side by side AI vs human rewrite comparison
 - Add exportable audit reports (PDF or share link)
-- Add industry-specific example libraries (SaaS, e-commerce, hiring, etc.)
+- Add industry specific example libraries (SaaS, e-commerce, hiring, etc.)
 
 ---
 
