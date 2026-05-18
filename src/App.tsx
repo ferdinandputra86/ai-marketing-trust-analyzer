@@ -422,6 +422,13 @@ export default function App() {
     return result ?? analyzeMarketingCopy(copy);
   }, [copy, hasAnalyzed, result]);
 
+  function handleCopyChange(value: string) {
+    setCopy(value);
+    if (hasAnalyzed) {
+      setResult(analyzeMarketingCopy(value));
+    }
+  }
+
   function handleAnalyze() {
     const analysis = analyzeMarketingCopy(copy);
     setResult(analysis);
@@ -470,7 +477,7 @@ export default function App() {
             <InputPanel
               copy={copy}
               hasAnalyzed={hasAnalyzed}
-              onCopyChange={setCopy}
+              onCopyChange={handleCopyChange}
               onAnalyze={handleAnalyze}
               onSample={handleSample}
               onClear={handleClear}
