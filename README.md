@@ -109,7 +109,7 @@ npm run preview
 - AI tools accelerate drafting and implementation
 - Human judgment is still necessary for quality and trust
 - Specific copy is usually more trustworthy than hype-heavy copy
-- Claims need verification — confidence is not the same as proof
+- Claims need verification confidence is not the same as proof
 - A simple prototype can communicate an idea clearly to reviewers
 
 ---

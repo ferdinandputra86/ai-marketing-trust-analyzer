@@ -232,7 +232,6 @@ function buildRewrite(
 }
 
 function computeSubScores(
-  text: string,
   hypeHits: string[],
   absoluteHits: string[],
   weakLogicHits: string[],
@@ -244,7 +243,7 @@ function computeSubScores(
   sentenceCount: number,
 ): CriterionScores {
   let specificity = 100 - vagueHits.length * 12;
-  if (!hasOutcomeSignal(text)) specificity -= 20;
+  if (lacksOutcome) specificity -= 20;
   if (wordCount < 15) specificity -= 15;
 
   let verifiability = 100;
@@ -257,7 +256,7 @@ function computeSubScores(
   if (vagueHits.length >= 3) clarity -= 25;
 
   let audienceAwareness = lacksAudience ? 45 : 85;
-  if (hasAudienceSignal(text) && hasOutcomeSignal(text)) audienceAwareness = 92;
+  if (!lacksAudience && !lacksOutcome) audienceAwareness = 92;
 
   let hypeControl = 100 - hypeHits.length * 14;
 
@@ -415,7 +414,6 @@ export function analyzeMarketingCopy(text: string): AnalysisResult {
 
   score = clamp(score);
   const scores = computeSubScores(
-    trimmed,
     hypeHits,
     absoluteHits,
     weakLogicHits,
