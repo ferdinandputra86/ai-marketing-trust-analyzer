@@ -38,7 +38,7 @@ Tools installed:
 3. Installed Codex extension
 4. Created a new GitHub repository (`ai-marketing-trust-analyzer`)
 5. Opened the repository in Cursor
-6. Built a small frontend prototype using React, Vite, TypeScript, Tailwind CSS, and shadcn/ui
+6. Built a small frontend prototype using React, Vite, TypeScript and Tailwind CSS.
 7. Created a simple trustworthiness framework (`framework/trust-framework.md`)
 8. Documented experiments with example copy (`experiments/`)
 9. Documented the process, issues, and learnings in this README
