@@ -110,7 +110,6 @@ npm run preview
 - Human judgment is still necessary for quality and trust
 - Specific copy is usually more trustworthy than hype-heavy copy
 - Claims need verification — confidence is not the same as proof
-- shadcn/ui helps create a clean interface quickly without custom CSS sprawl
 - A simple prototype can communicate an idea clearly to reviewers
 
 ---
