@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-**AI Marketing Trust Analyzer** is a lightweight browser prototype that evaluates marketing copy using a transparent trust framework based on clear rules, emphasizing specificity, verifiability, clarity, and honest framing.
+**AI Marketing Trust Analyzer** is a lightweight browser prototype that evaluates marketing copy using a transparent trust framework based on clear rules, emphasizing specificity, verifiability, clarity, and honest framing. Live demo: https://ai-marketing-trust-analyzer.vercel.app/.
 
 ---
 
@@ -18,7 +18,16 @@
 
 ## 3. Tools Installed
 
-Tools installed: Cursor IDE (AI-assisted development workspace) — Installed. Claude Code extension (Reasoning, writing, and AI workflow exploration) — Installed. Codex extension (Code generation and implementation support) — Installed. GitHub (Version control and portfolio hosting) — Completed. React + Vite + TypeScript (Lightweight frontend prototype) — Used. shadcn/ui (Polished UI components) — Used. Tailwind CSS (Utility-first styling) — Used. lucide-react (Icons for product-style UI) — Used.
+Tools installed:
+
+- Cursor IDE: AI assisted development workspace. Status: Installed.
+- Claude Code extension: Reasoning, writing, and AI workflow exploration. Status: Installed.
+- Codex extension: Code generation and implementation support. Status: Installed.
+- GitHub: Version control and portfolio hosting. Status: Completed.
+- React + Vite + TypeScript: Lightweight frontend prototype. Status: Used.
+- shadcn/ui: Polished UI components. Status: Used.
+- Tailwind CSS: Utility first styling. Status: Used.
+- lucide-react: Icons for product style UI. Status: Used.
 
 ---
 
