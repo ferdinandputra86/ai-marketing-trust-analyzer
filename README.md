@@ -20,7 +20,6 @@ This project is **not** a claim that AI is bad. AI tools are useful for speed an
 - [x] Created README.md
 - [x] Committed and pushed the project to GitHub
 
-
 ## 3. Tools Installed
 
 Tools installed: Cursor IDE (AI-assisted development workspace) — Installed. Claude Code extension (Reasoning, writing, and AI workflow exploration) — Installed. Codex extension (Code generation and implementation support) — Installed. GitHub (Version control and portfolio hosting) — Completed. React + Vite + TypeScript (Lightweight frontend prototype) — Used. shadcn/ui (Polished UI components) — Used. Tailwind CSS (Utility-first styling) — Used. lucide-react (Icons for product-style UI) — Used.
@@ -44,16 +43,16 @@ Tools installed: Cursor IDE (AI-assisted development workspace) — Installed. C
 
 ## 5. Issues I Ran Into and How I Solved Them
 
-Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser-based (no backend, no external AI API). 
+Deciding on project scope: The task was simple, but I wanted to show initiative without overbuilding, so I kept the app lightweight and browser-based (no backend, no external AI API).
 The lesson: good execution is not about adding complexity; it is about matching the goal.
 
-Designing the scoring framework: Trustworthiness in marketing is subjective, so I used transparent heuristic signals rather than claiming objective accuracy. 
+Designing the scoring framework: Trustworthiness in marketing is subjective, so I used transparent heuristic signals rather than claiming objective accuracy.
 The lesson: it is important to be honest about the limits of AI and scoring systems.
 
-Avoiding fake citations: AI tools can generate confident but unsupported statements, so I avoided fabricated sources and labeled the system as experimental. 
+Avoiding fake citations: AI tools can generate confident but unsupported statements, so I avoided fabricated sources and labeled the system as experimental.
 The lesson: verification matters more than confident wording.
 
-UI design balance: I wanted the app to feel polished but not overdesigned, so I used shadcn/ui cards, badges, tabs, alerts, and progress components to create a clean interface. 
+UI design balance: I wanted the app to feel polished but not overdesigned, so I used shadcn/ui cards, badges, tabs, alerts, and progress components to create a clean interface.
 The lesson: clear interface design helps communicate the idea faster.
 
 ---
@@ -96,7 +95,7 @@ npm install
 npm run dev
 ```
 
-Open the local Vite URL shown in the terminal 
+Open the local Vite URL shown in the terminal
 **Build for production:**
 
 ```bash
