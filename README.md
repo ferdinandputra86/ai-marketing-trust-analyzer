@@ -87,6 +87,8 @@ Example experiments:
 
 ## 8. How to Run the Project
 
+I have deployed the app for review at https://ai-marketing-trust-analyzer.vercel.app/.
+
 ```bash
 git clone https://github.com/ferdinandputra86/ai-marketing-trust-analyzer.git
 cd ai-marketing-trust-analyzer
